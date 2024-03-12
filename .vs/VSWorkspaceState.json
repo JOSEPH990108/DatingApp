@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\API",
+    "\\API\\Extensions",
+    "\\API\\Helpers",
+    "\\API\\Interfaces",
+    "\\API\\Middleware",
+    "\\client",
+    "\\client\\src",
+    "\\client\\src\\app",
+    "\\client\\src\\app\\_services"
+  ],
+  "SelectedNode": "\\API\\Controllers\\AccountController.cs",
+  "PreviewInSolutionExplorer": false
+}

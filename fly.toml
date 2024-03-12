@@ -1,0 +1,24 @@
+# fly.toml app configuration file generated for cold-lake-7205 on 2023-10-26T13:00:11+08:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "cold-lake-7205"
+primary_region = "sin"
+
+[build]
+  image = "joseph990108/datingapp:latest"
+
+[env]
+ASPNETCORE_URLS="http://+:8080"
+CloudinarySettings__CloudName="ddyt7muh0"
+CloudinarySettings__ApiKey="756718221456589"
+
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]

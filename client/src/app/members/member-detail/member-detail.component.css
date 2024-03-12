@@ -1,0 +1,24 @@
+.card-img-wrapper{
+  text-align: center;
+  padding: 5px;
+}
+
+.img-thumbnail{
+  width: 85%;
+  height: 85%;
+}
+
+.card-body{
+  padding: 0 25px;
+}
+
+.card-footer{
+  padding: 10px 15px;
+  background-color: white;
+  border-top: none;
+}
+
+.about-content{
+  background-color: aliceblue;
+  padding: 10px;
+}
